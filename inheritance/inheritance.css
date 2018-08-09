@@ -1,0 +1,22 @@
+.primary, .danger, .success {
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.danger {
+  background-color: lightcoral;
+}
+
+.primary {
+  background-color: lightblue;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
