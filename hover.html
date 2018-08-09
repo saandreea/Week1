@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover</title>
+    <style>
+      button {
+        background-color: aqua;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 23px;
+      }
+
+      button:Hover {
+        background-color: palevioletred;
+      }
+
+      a::before {
+        content :"\21d2 Click here: ";
+        font-weight: bold;
+      }
+
+      p::selection {
+        background-color: red;
+        color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Click!</button>
+
+    <ul>
+      <li><a href="#">one link</a></li>
+      <li><a href="#">second link</a></li>
+      <li><a href="#">third link</a></li>
+    </ul>
+
+    <p>Ana are mere. Cristi are pere. Grasu are bobite. Hai sa mancam. </p>
+
+  </body>
+</html>
